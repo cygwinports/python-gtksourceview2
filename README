@@ -3,26 +3,26 @@ python-gtksourceview2
 Python bindings for GtkSourceView2.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
-  gtksourceview2-2.2.1-1
-  python-2.5.2-1
-  python-gobject2-2.14.2-1
-  python-gtk2-2.12.1-1
+  cygwin-1.5.25-15
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libgtksourceview2.0_0-2.4.1-1
+  python-2.5.2-4
+  python-gobject2-2.15.4-1
+  python-gtk2-2.13.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gtk-doc-1.10-1
-  libtool-2.2.2-2
+  gtk-doc-1.11-1
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -34,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-gtksourceview2-2.2.0-X-src.tar.bz2
+  unpack python-gtksourceview2-2.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-gtksourceview2-2.2.0-X.cygport all
+  cygport ./python-gtksourceview2-2.4.0-X.cygport all
 
 This will create:
-  /usr/src/python-gtksourceview2-2.2.0-X-src.tar.bz2
-  /usr/src/python-gtksourceview2-2.2.0-X.tar.bz2
+  /usr/src/python-gtksourceview2-2.4.0-X-src.tar.bz2
+  /usr/src/python-gtksourceview2-2.4.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,12 +51,12 @@ Files included in the binary package:
   /usr/lib/pkgconfig/pygtksourceview-2.0.pc
   /usr/lib/python2.5/site-packages/gtksourceview2.dll
   /usr/lib/python2.5/site-packages/gtksourceview2.la
-  /usr/share/doc/python-gtksourceview2-2.2.0/AUTHORS
-  /usr/share/doc/python-gtksourceview2-2.2.0/COPYING
-  /usr/share/doc/python-gtksourceview2-2.2.0/ChangeLog
-  /usr/share/doc/python-gtksourceview2-2.2.0/INSTALL
-  /usr/share/doc/python-gtksourceview2-2.2.0/NEWS
-  /usr/share/doc/python-gtksourceview2-2.2.0/README
+  /usr/share/doc/python-gtksourceview2-2.4.0/AUTHORS
+  /usr/share/doc/python-gtksourceview2-2.4.0/COPYING
+  /usr/share/doc/python-gtksourceview2-2.4.0/ChangeLog
+  /usr/share/doc/python-gtksourceview2-2.4.0/INSTALL
+  /usr/share/doc/python-gtksourceview2-2.4.0/NEWS
+  /usr/share/doc/python-gtksourceview2-2.4.0/README
   /usr/share/gtk-doc/html/pygtksourceview2/class-gtksourcebuffer2.html
   /usr/share/gtk-doc/html/pygtksourceview2/class-gtksourcelanguage2.html
   /usr/share/gtk-doc/html/pygtksourceview2/class-gtksourcelanguagemanager2.html
@@ -75,6 +75,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.2.0-1 -----
 Version bump for GNOME 2.22.
