@@ -1,6 +1,0 @@
-inherit pygtk
-
-PATCH_URI="
-	2.2-shrext.patch
-	2.4-libtool22.patch
-"
