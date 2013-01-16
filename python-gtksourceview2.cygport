@@ -1,0 +1,9 @@
+inherit pygtk
+
+NAME="python-gtksourceview2"
+VERSION=2.10.1
+RELEASE=2
+CATEGORY="Python"
+SUMMARY="Python GtkSourceView2 bindings"
+DESCRIPTION="Python bindings for the GNOME GtkSourceView2 library"
+REQUIRES="python-gobject python-gtk2.0"
